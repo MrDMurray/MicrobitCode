@@ -1,7 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="KoDyAnnQ`g_pg;Os:E+r">angle</variable></variables><block type="pxt-on-start" id="NpsOO1RlULtZI]]4R4$s" x="410" y="65"><statement name="HANDLER"><block type="device_show_leds" id="(4YOZoK?gav~s,2r2nnV"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="HsTIJXJr4E.~O`~F,l.p">angle</variable></variables><block type="device_button_event" id="1fe)(DhpZ0p@8UOj1KWg" x="403" y="-11"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="4jn8o,*4`.mb%#]1KuXT"><field name="LEDS">`
         . . # . . 
         . # # # . 
         # # # # # 
         . . # . . 
         . . # . .
-        `</field><next><block type="variables_set" id="jAI!?wxmb`cM7,2,ISK^"><field name="VAR" id="KoDyAnnQ`g_pg;Os:E+r">angle</field><value name="VALUE"><shadow type="math_number" id="+]o82%Z);j([/.aObns="><field name="NUM">90</field></shadow></value></block></next></block></statement></block></xml>
+        `</field><next><block type="device_set_servo_pin" id="#4{QbRf/k$/0^kGFb=C/"><field name="name">AnalogPin.P13</field><value name="value"><shadow type="math_number_minmax" id="[)/PA}]ctb0J}ToV9B=."><mutation min="0" max="180" label="Value" precision="0"/><field name="SLIDER">90</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="VCL,|bFIjC,:$VacV?|]" x="68" y="353"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="5_ox.MIptia/OZj,c9uZ"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
+        `</field><next><block type="device_set_servo_pin" id="*72G@AGmNCjJNuw~qEXi"><field name="name">AnalogPin.P13</field><value name="value"><shadow type="math_number_minmax" id="9=gaO1eKpdyY2JiwfvHk"><mutation min="0" max="180" label="Value" precision="0"/><field name="SLIDER">0</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="{f`j7N/yQd0=V_D)Av.#" x="834" y="361"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="nw]dBh^=;$w`CTHw=ptR"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        # # # # # 
+        . . # # . 
+        . . # . .
+        `</field><next><block type="device_set_servo_pin" id="yR,zZ(@tZ`nhQKYSz4@o"><field name="name">AnalogPin.P13</field><value name="value"><shadow type="math_number_minmax" id="Z35FXQ@]mtZ`9*;P^`LA"><mutation min="0" max="180" label="Value" precision="0"/><field name="SLIDER">180</field></shadow></value></block></next></block></statement></block></xml>
