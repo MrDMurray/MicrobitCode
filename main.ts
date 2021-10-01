@@ -1,21 +1,8 @@
-input.onButtonPressed(Button.A, function () {
-    pins.digitalWritePin(DigitalPin.P1, 1)
-    basic.showIcon(IconNames.Angry)
-    basic.pause(500)
-    pins.digitalWritePin(DigitalPin.P1, 0)
-    basic.showIcon(IconNames.Happy)
-})
-input.onButtonPressed(Button.AB, function () {
-    pins.analogWritePin(AnalogPin.P0, 1023)
-    basic.pause(500)
-    pins.digitalWritePin(DigitalPin.P0, 0)
-    basic.showIcon(IconNames.Happy)
-    pins.analogWritePin(AnalogPin.P0, 1023)
-})
-input.onButtonPressed(Button.B, function () {
-    pins.digitalWritePin(DigitalPin.P0, 1)
-    basic.showIcon(IconNames.Angry)
-    basic.pause(500)
-    pins.digitalWritePin(DigitalPin.P0, 0)
-    basic.showIcon(IconNames.Happy)
-})
+basic.showLeds(`
+    . . # . .
+    . # # # .
+    # # # # #
+    . . # . .
+    . . # . .
+    `)
+let angle = 90

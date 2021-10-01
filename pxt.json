@@ -1,5 +1,5 @@
 {
-    "name": "spin10",
+    "name": "servotime",
     "description": "",
     "dependencies": {
         "core": "*",
